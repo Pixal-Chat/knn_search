@@ -5,7 +5,7 @@ import urllib
 from datetime import datetime
 
 # MongoDB setup (replace these with your MongoDB connection details)
-client = pymongo.MongoClient("mongodb+srv://manishsaiyella:" + urllib.parse.quote("admin@admin") + "@newsdb.iy2oh.mongodb.net")  # Replace with your MongoDB URI
+client = pymongo.MongoClient("MONGO_DB_URL")  # Replace with your MongoDB URI
 db = client["data"]  # Database name
 collection = db["elastic_data"]  # Collection name
 
