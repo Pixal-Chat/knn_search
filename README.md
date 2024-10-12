@@ -37,5 +37,5 @@ To get this project up and running on your local machine, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/knn-semantic-search.git
-   cd knn-semantic-search
+   git clone https://github.com/Pixal-Chat/knn_search.git
+   cd knn_search
